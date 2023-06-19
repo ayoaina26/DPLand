@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about {
+    width: 100%;
+    padding: 120px 0px;
+    background-color: black;
+}
+
+.about video {
+    height: auto;
+    width: 420px
+}
+
+.about-text {
+    width: 550px;
+    color: white;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: white;
+    color: white;
+    text-decoration: none;
+    border: 2px solid;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    border: 2px solid #ff6a00;
+    cursor: pointer;
+}
+/*Social Media*/
+.site-footer {
+    background-color: #838383;
+    text-align: center;
+    margin: 0px 0;
+    padding: 20px 0;
+}
+
+#social-wrapper {
+    text-align: center;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+    text-align: center;
+}
+
+.social-wrapper ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon,
+.youtube-icon {
+    margin-top: .625em;
+    width: 40px;
+    height: 40px;
+    opacity: .6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 25px;
+}
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.linkedin-icon:hover,
+.youtube-icon:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.footer-nav p {
+    text-align: center;
+}
+/*E/
+
+ /*NavBar*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.navigation ul {
+    margin-left: 20px;
+    z-index: 2;
+}
+
+.navigation ul li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman'
+}
+
+.navigation ul li a:hover {
+    color: blue
+}
