@@ -10,6 +10,10 @@
     <title>CAS DPland</title>
 </head>
 <body>
+<script>
+class NavBar extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = "
     <nav class="navbar">
         <div class='logo'><img src="./assets/DPLandLogo.png" width="70" height="70"></div>
         <div class="navigation">
@@ -59,6 +63,10 @@
             </ul>
         </div>
     </nav>
+  "      
+  }
+}
+</script>
     customElements.define('main-header', NavBar);
     <!-- H Section -->
     <section id="hero">
