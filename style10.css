@@ -36,21 +36,6 @@
     text-transform: capitalize;
 }
 
-button {
-    background-color: white;
-    color: white;
-    text-decoration: none;
-    border: 2px solid;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
-}
-
-button:hover {
-    border: 2px solid #ff6a00;
-    cursor: pointer;
-}
 /*Social Media*/
 .site-footer {
     background-color: #838383;
